@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#16090f">
+  <meta name="description" content="A little birthday surprise made with love for Sanuhhhhh.">
+  <title>For Sanuhhhhh ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <div class="music-gate" id="musicGate">
+    <div class="gate-card">
+      <span class="gate-heart">♥</span>
+      <p class="eyebrow">A SURPRISE FOR YOU</p>
+      <h2>Ready, birthday girl?</h2>
+      <p>Your little world of memories is waiting.</p>
+      <button class="primary-button" id="openSurprise">Open my surprise <span>♡</span></button>
+      <small>Tap to enter · music starts here</small>
+    </div>
+  </div>
+
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="assets/background-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" id="musicToggle" aria-label="Play or pause background music" title="Play or pause music">
+    <span id="musicIcon">♫</span><span id="musicLabel">Play music</span>
+  </button>
+
+  <header class="topbar">
+    <a class="brand" href="#home">for <span>Sanuhhhhh</span> <i>♥</i></a>
+    <a class="top-link" href="#memories">our memories ↓</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow reveal">A LITTLE SOMETHING, JUST FOR YOU</p>
+      <h1 class="reveal">Happy Birthday,<br><em>Sanuhhhhh.</em></h1>
+      <p class="hero-copy reveal">If I could wrap up every happy moment you've given me,<br class="desktop"> I'd put them all right here for you.</p>
+      <a class="primary-button reveal" href="#letter">Open your surprise <span>♡</span></a>
+      <div class="hero-photo reveal">
+        <img src="assets/memory-03.jpg" alt="A favourite photo together">
+        <span class="photo-note">one of my favourite memories</span>
+      </div>
+      <div class="scroll-cue">SCROLL A LITTLE <span>↓</span></div>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">FROM MY HEART TO YOURS</p>
+        <h2>A letter for <em>you.</em></h2>
+      </div>
+      <div class="letter-card reveal">
+        <div class="letter-seal">S <span>♥</span></div>
+        <p class="letter-kicker">To my favourite person,</p>
+        <div class="letter-text">
+          <p>Happy birthday, Sanuhhhhh. ❤️</p>
+          <p>I wish I could make you see yourself through my eyes, even for a moment. Maybe then you'd understand how special you are to me and how much happiness your presence brings into my life.</p>
+          <p>Thank you for the little moments, the silly faces, the laughter, the memories, and all the ordinary days that became special just because you were part of them.</p>
+          <p>I hope this new year of your life brings you peace, beautiful surprises, reasons to smile, and everything your heart has been quietly wishing for.</p>
+          <p>No website or words could ever hold everything I want to say. But I made this little corner of the internet to remind you that you are appreciated, celebrated, and loved.</p>
+        </div>
+        <p class="letter-sign">Always wishing you the best,<br><span>Yours, with love ♥</span></p>
+      </div>
+    </section>
+
+    <section class="memories-section section" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+        <h2>Our little <em>world.</em></h2>
+        <p class="section-subtitle">Some memories deserve their own little place.</p>
+      </div>
+      <div class="gallery">
+        <figure class="memory memory-tall reveal"><img src="assets/memory-01.jpg" alt="A classroom memory"><figcaption>One ordinary day, now a memory I keep.</figcaption></figure>
+        <figure class="memory memory-wide reveal"><img src="assets/memory-02.jpg" alt="A moment together by the water"><figcaption>Just being there together was enough.</figcaption></figure>
+        <figure class="memory memory-close reveal"><img src="assets/memory-03.jpg" alt="A close-up photo together"><figcaption>My favourite kind of company.</figcaption></figure>
+        <figure class="memory reveal"><img src="assets/memory-04.png" alt="A moment saved on a watch"><figcaption>A little reminder, close at hand.</figcaption></figure>
+        <figure class="memory reveal"><img src="assets/memory-05.png" alt="A video-call memory"><figcaption>Even the silly moments matter.</figcaption></figure>
+        <figure class="memory reveal"><img src="assets/memory-06.png" alt="Another video-call memory"><figcaption>Those smiles say enough.</figcaption></figure>
+        <figure class="memory memory-note reveal"><img src="assets/memory-07.jpg" alt="A handmade card with a loving message"><figcaption>A handmade little piece of affection.</figcaption></figure>
+        <figure class="memory memory-wide reveal"><img src="assets/memory-08.jpg" alt="Another memory together by the water"><figcaption>And a thousand more moments to come.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="videos-section section" id="videos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PRESS PLAY, KEEP THE MEMORY</p>
+        <h2>Moving <em>memories.</em></h2>
+        <p class="section-subtitle">A few moments are even sweeter when they move.</p>
+      </div>
+      <div class="video-grid">
+        <article class="video-card reveal">
+          <video controls playsinline preload="metadata" poster="assets/memory-03.jpg">
+            <source src="assets/video-01.mp4" type="video/mp4">
+            Your browser does not support this video.
+          </video>
+          <p>Memory no. 01</p>
+        </article>
+        <article class="video-card reveal">
+          <video controls playsinline preload="metadata" poster="assets/memory-08.jpg">
+            <source src="assets/video-02.mp4" type="video/mp4">
+            Your browser does not support this video.
+          </video>
+          <p>Memory no. 02</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wish-section section" id="wish">
+      <div class="wish-orb">♥</div>
+      <p class="eyebrow reveal">MAKE A WISH, BIRTHDAY GIRL</p>
+      <h2 class="reveal">A little wish<br><em>for your new year.</em></h2>
+      <p class="wish-copy reveal">May life be gentle with you. May your dreams find their way to you. And may you never forget how much light you bring into the lives around you.</p>
+      <div class="cake reveal" aria-label="Birthday cake with candles">
+        <div class="candles"><span class="candle"><i></i></span><span class="candle"><i></i></span><span class="candle"><i></i></span></div>
+        <div class="cake-top"></div><div class="cake-body"><span>♥</span></div><div class="cake-plate"></div>
+      </div>
+      <button class="primary-button wish-button reveal" id="wishButton">Tap to make a wish <span>✦</span></button>
+      <p class="wish-result" id="wishResult" aria-live="polite"></p>
+    </section>
+
+    <footer class="footer">
+      <p>Made with all my heart,</p>
+      <h2>for <em>Sanuhhhhh</em> ♥</h2>
+      <span>HAPPY BIRTHDAY · 22 NOVEMBER</span>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close image">×</button>
+    <img src="" alt="Expanded memory">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
